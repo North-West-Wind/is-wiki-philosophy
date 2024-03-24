@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Check whether repeatedly clicking on the first link of a Wikipedia page will lead to Philosophy.",
   "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "test": "ts-node test/test.ts",
     "build": "tsc"
@@ -23,5 +26,13 @@
     "cheerio": "^1.0.0-rc.12",
     "fetch-retry": "^6.0.0",
     "node-fetch": "^2.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-West-Wind/is-wiki-philosophy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/North-West-Wind/is-wiki-philosophy/issues"
+  },
+  "homepage": "https://github.com/North-West-Wind/is-wiki-philosophy#readme"
 }
